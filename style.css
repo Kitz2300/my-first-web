@@ -1,0 +1,35 @@
+html {
+    font-size: 25px;
+}
+body {
+    background-color: #333; color: whitesmoke;
+    min-height: 100vh;
+    min-width: 800px;
+    margin: 1rem;
+    border-left: 5px solid #503030;
+    border-right: 5px solid #503030;
+}
+a {
+    color: aliceblue;
+}
+a:visited {
+    color:aqua;
+}
+a:hover, a:active {
+    color:aquamarine
+}
+th, td, caption {
+    border: 1px solid whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: separate;
+    padding: 0.5rem;
+}
+img, figure {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
